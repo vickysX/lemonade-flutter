@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lemonade/juice_maker.dart';
 
 class LemonadeContainer extends StatelessWidget {
   const LemonadeContainer({super.key});
@@ -12,6 +13,7 @@ class LemonadeContainer extends StatelessWidget {
           Text(
             "Tap the image to go on...",
           ),
+          JuiceMaker(),
         ],
       ),
     );
