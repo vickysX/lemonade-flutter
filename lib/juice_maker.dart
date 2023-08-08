@@ -60,7 +60,13 @@ class _JuiceMakerState extends State<JuiceMaker> {
       child: Column(
         children: [
           SvgPicture.asset(currentStep.path),
-          Text(currentStep.instruction),
+          Text(
+            currentStep.instruction,
+            style: const TextStyle(
+              fontSize: 18,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
         ],
       ),
     );

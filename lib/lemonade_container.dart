@@ -13,6 +13,9 @@ class LemonadeContainer extends StatelessWidget {
           Text(
             "Tap the image to go on...",
           ),
+          SizedBox(
+            height: 24,
+          ),
           JuiceMaker(),
         ],
       ),
